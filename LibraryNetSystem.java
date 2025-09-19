@@ -102,7 +102,7 @@ public class LibraryNetSystem {
         }
     }
 
-    // ================= ADMIN MENU =================
+    
     private static void adminMenu(Scanner sc) {
         while (true) {
             System.out.println("\n==== Admin Dashboard ====");
@@ -125,7 +125,7 @@ public class LibraryNetSystem {
         }
     }
 
-    // ================= USER MENU =================
+  
     private static void userMenu(Scanner sc) {
         while (true) {
             System.out.println("\n==== User Dashboard ====");
@@ -148,7 +148,7 @@ public class LibraryNetSystem {
         }
     }
 
-    // ================= CORE FUNCTIONS =================
+   
     private static void loadInventory() {
         try (BufferedReader br = new BufferedReader(new FileReader(INVENTORY_FILE))) {
             String line;
@@ -325,3 +325,4 @@ public class LibraryNetSystem {
         }
     }
 }
+
